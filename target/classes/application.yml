@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: TweetApp
+      
+jwt:
+  secret: tweetApp
+  
+mongodb:
+  host: mongodb://localhost:27017
+  database: tweetapp
+  
+server:  port: 5000
+  servlet:    context-path: /api/tweets
+  
+     
+logging:
+   file:    name: C:\Users\91984\Desktop\logs\elk_stack.log
+    
+
+aws:
+  url: http://dynamodb.ap-south-1.amazonaws.com
+  region: ap-south-1
+  userId: AKIAZGOSVBUHKSTHMEGN
+  paswd: vfxyULOZukpFupO+qwrOyxcDaTprvaIyDWXvjcD1
+  
